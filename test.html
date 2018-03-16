@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tytuł</title>
+    <title>Formularze</title>
+
+    <style>
+        input, textarea {
+            display:block;
+        }
+
+    </style>
 </head>
 <body>
+
+    <label for="name">Twoje imię</label>
+    <input type="text" />
+
+    <label for="surname">Twoje nazwisko</label>
+    <input type="text" />
+
+    <label for="mail">Twój mail</label>
+    <input type="text" />
+
+    <label for="password">Podaj hasło</label>
+    <input type="password" />
+
+    <label for="textarea">Napisz coś o sobie</label>
+    <textarea cols="10" rows="10" placeholder="wpisz tekst"></textarea>
+
+    <input type="submit" value="Wyślij">
 
 </body>
 </html>
